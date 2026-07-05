@@ -3,12 +3,21 @@ const Doctor = require("../models/Doctor");
 // Add Doctor
 const addDoctor = async (req, res) => {
   try {
-    const doctor = await Doctor.create(req.body);
+    const doctor = await Doctor.create({
+      user: req.user.id,
+      specialization: req.body.specialization,
+      experience: req.body.experience,
+      qualification: req.body.qualification,
+      consultationFee: req.body.consultationFee,
+      availableDays: req.body.availableDays,
+      availableTime: req.body.availableTime,
+    });
 
     res.status(201).json({
       success: true,
       doctor,
     });
+
   } catch (error) {
     res.status(500).json({
       success: false,
