@@ -1,0 +1,18 @@
+.appointments-page{
+    padding:60px 8%;
+    background:#f4f9ff;
+    min-height:100vh;
+}
+
+.appointments-page h1{
+    color:#0d3b66;
+    margin-bottom:30px;
+}
+
+.appointment-box{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}

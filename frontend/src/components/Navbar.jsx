@@ -1,23 +1,51 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar">
+
       <div className="logo">
-        <h2>🏥 Book A Doctor</h2>
+        <span className="logo-icon">🏥</span>
+        <h2>Book A Doctor</h2>
       </div>
 
       <ul className="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Doctors</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
+
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+
+        <li>
+          <Link to="/doctors">Doctors</Link>
+        </li>
+
+        <li>
+          <a href="#why">About</a>
+        </li>
+
+        <li>
+          <a href="#footer">Contact</a>
+        </li>
+
       </ul>
 
       <div className="nav-buttons">
-        <button className="login-btn">Login</button>
-        <button className="register-btn">Register</button>
+
+        <Link to="/login">
+          <button className="login-btn">
+            Login
+          </button>
+        </Link>
+
+        <Link to="/register">
+          <button className="register-btn">
+            Register
+          </button>
+        </Link>
+
       </div>
+
     </nav>
   );
 }

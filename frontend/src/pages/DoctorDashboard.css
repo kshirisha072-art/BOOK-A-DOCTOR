@@ -1,0 +1,51 @@
+.doctor-dashboard{
+    min-height:100vh;
+    padding:60px 8%;
+    background:#f4f9ff;
+}
+
+.doctor-dashboard h1{
+    color:#0d3b66;
+    margin-bottom:40px;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.dashboard-card{
+    background:white;
+    padding:40px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.dashboard-card h2{
+    font-size:40px;
+}
+
+.dashboard-card h3{
+    margin:20px 0 10px;
+    color:#0d3b66;
+}
+.dashboard-card{
+    text-decoration: none;
+    color: inherit;
+}
+
+.dashboard-card:visited{
+    color: inherit;
+}
+
+.dashboard-card:hover{
+    text-decoration: none;
+    transform: translateY(-8px);
+}

@@ -26,7 +26,7 @@ function WhyChooseUs() {
   ];
 
   return (
-    <section className="why">
+    <section className="why" id="why">
       <h2>Why Choose Us?</h2>
       <p>Your health is our priority. We provide trusted healthcare services with expert doctors.</p>
 
