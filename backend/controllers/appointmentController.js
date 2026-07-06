@@ -3,7 +3,6 @@ const Appointment = require("../models/Appointment");
 // Create Appointment
 const createAppointment = async (req, res) => {
   try {
-
     const appointment = await Appointment.create({
       patient: req.user.id,
       doctor: req.body.doctorId,
@@ -15,22 +14,21 @@ const createAppointment = async (req, res) => {
       success: true,
       appointment,
     });
-
   } catch (error) {
-
     res.status(500).json({
       success: false,
       message: error.message,
     });
-
   }
 };
 
-// Get All Appointments
+// Get Logged-in User Appointments
 const getAppointments = async (req, res) => {
   try {
-    const appointments = await Appointment.find()
-      .populate("patient")
+    const appointments = await Appointment.find({
+      patient: req.user.id,
+    })
+      .populate("patient", "name email phone")
       .populate("doctor");
 
     res.status(200).json({
