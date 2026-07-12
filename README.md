@@ -83,7 +83,6 @@ http://localhost:5000
 
 ## 📁 Folder Structure
 
-```text
 
 Backend 
 1.config 
@@ -115,7 +114,7 @@ README.md
 
 ---
 
-## 👩‍💻 Author
+## 👩💻 Author
 
 **KUMMARI SHIRISHA**
 
@@ -124,5 +123,7 @@ README.md
 **Project Duration:** *25 June 2026 – 11 July 2026*
 
 **GitHub Repository:** *https://github.com/kshirisha072-art/BOOK-A-DOCTOR*
+
+
 
 
