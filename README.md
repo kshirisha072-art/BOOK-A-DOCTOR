@@ -57,11 +57,11 @@ https://drive.google.com/file/d/1Pc9aOYXTN4vfHQ_LJYtTggV6qL_w4TVd/view?usp=shari
 
 
 ### Frontend
-
+http://localhost:3000
 
 ### Backend
 
-
+http://localhost:5000
 
 
 
@@ -71,15 +71,15 @@ https://drive.google.com/file/d/1Pc9aOYXTN4vfHQ_LJYtTggV6qL_w4TVd/view?usp=shari
 
 ## ⚙️ Installation
 
-Clone the Repository git clone https://github.com/kshirisha072-art/BOOK-A-DOCTOR
-Navigate to the Project cd BOOK-A-DOCTOR
-Install Backend Dependencies cd backend npm install
-Install Frontend Dependencies cd ../frontend npm install
-Configure Environment Variables
-Create .env files inside both backend and frontend folders and add the required environment variables.
+*Clone the Repository git clone https://github.com/kshirisha072-art/BOOK-A-DOCTOR
+*Navigate to the Project cd BOOK-A-DOCTOR
+*Install Backend Dependencies cd backend npm install
+*Install Frontend Dependencies cd ../frontend npm install
+*Configure Environment Variables
+*Create .env files inside both backend and frontend folders and add the required environment variables.
 
-Start Backend cd backend npm start
-Start Frontend cd frontend npm start
+*Start Backend cd backend npm run dev
+*Start Frontend cd frontend npm start
 
 ## 📁 Folder Structure
 
