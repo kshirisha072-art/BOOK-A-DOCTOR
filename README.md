@@ -71,12 +71,12 @@ http://localhost:5000
 
 ## ⚙️ Installation
 
-*Clone the Repository git clone https://github.com/kshirisha072-art/BOOK-A-DOCTOR
-*Navigate to the Project cd BOOK-A-DOCTOR
-*Install Backend Dependencies cd backend npm install
-*Install Frontend Dependencies cd ../frontend npm install
-*Configure Environment Variables
-*Create .env files inside both backend and frontend folders and add the required environment variables.
+*Clone the Repository git clone https://github.com/kshirisha072-art/BOOK-A-DOCTOR*
+*Navigate to the Project cd BOOK-A-DOCTOR*
+*Install Backend Dependencies cd backend npm install*
+*Install Frontend Dependencies cd ../frontend npm install*
+*Configure Environment Variables*
+*Create .env files inside both backend and frontend folders and add the required environment variables.*
 
 *Start Backend cd backend npm run dev
 *Start Frontend cd frontend npm start
@@ -84,36 +84,34 @@ http://localhost:5000
 ## 📁 Folder Structure
 
 ```text
-BOOK-A-DOCTOR
-│
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── uploads
-│   ├── utils
-│   ├── validations
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── services
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── .env
-│
-├── README.md
-└── .gitignore
-```
+
+Backend 
+1.config 
+2.controllers
+3. middleware
+4. models
+5. routes
+6. uploads
+7. utils
+8.validations
+9.server.js
+10. package.json
+11. .env
+
+Frontend
+1. public
+2. src
+3. assets
+4. components
+5. pages
+6. services
+7. App.jsx │
+8.main.jsx
+9. package.json
+10. .env  
+
+README.md
+ .gitignore
 
 ---
 
