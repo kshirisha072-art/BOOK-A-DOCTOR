@@ -1,5 +1,4 @@
 # BOOK-A-DOCTOR
-# 🩺 Book a Doctor
 
 ## 📖 Overview
 
